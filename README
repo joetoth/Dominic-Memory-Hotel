@@ -1,0 +1,25 @@
+ Go implementation of the Dominic Hotel mnemonic memory system 
+ found in the book "Mind Performance Hacks". This is a system to help you
+ remember up to 10,000 things.
+ http:www.lifetrainingonline.com/blog/how-to-remember-100-things.htm
+
+ In order to remember long numbers a mnemonic system is needed. The following
+ mnemonic associating is the building base.
+ 0=O, 1=A, 2=B, 3=C, 4=D, 5=E, 6=S, 7=G, 8=H, 9=N
+ 
+ Next you need to create a memoryMap of names and actions to represent a 2
+ digit number. For instance:
+ AE => Albert Einstein: Writing on the chalkboard
+ would represent number 15
+ HO => Santa Claus: Laughing "HO HO HO"
+ would represent number 80
+
+ If you want to represent the number 1580 you would take the person from
+ the first number and action from the second number, yielding: Albert Einstein
+ laughing "HO HO HO"
+
+ Yes, this means you need to come up with 100 name/action combinations.
+
+ This program helps you see your 10,000 combinations
+ The dominic.txt file is of the format Mnemonic:Name:Action, where a colon is the 
+ separator and shouldn't be in the name or action.
